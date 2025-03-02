@@ -1,0 +1,420 @@
+/*Putting responsive*/
+@media (max-width:1024px) {
+    canvas {
+        z-index: -100;
+    }
+    #namelogo {
+        height: 40vw;
+    }
+    #language-icon:hover {
+       color: #fff;
+    }
+    #languages {
+        position: absolute;
+        left: 20px;
+        top: 50%;
+        transform: translateY(-50%);
+        z-index: 101
+    }
+    #listlanguages {
+        top: 43px;
+        background-color: #4d2b6c;
+        padding: 10px;
+        list-style: none;
+        margin: 0;
+        border-radius: 10px;
+        left: -10px;
+        transition: 1s;
+        max-width: 60px
+    }
+    #updown {
+        right: 50px;
+    }
+    .main-slider .next,
+    .main-slider .prev {
+        font-size: 30px;
+        width: 40px;
+        height: 40px
+    }
+
+    .main-slider .fullscreen:hover,
+    .main-slider .next:hover,
+    .main-slider .prev:hover {
+        color: #fff;
+        background-color: rgba(0, 0, 0, .5);
+    }
+}
+
+@media (min-width:768px) and (max-width:1024px) {
+    header {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 10px
+    }
+
+    #hamburger {
+        display: block
+    }
+
+    #hamburger-toggle:checked+label+.mobiletopics {
+        display: block
+    }
+
+    .topics {
+        display: none
+    }
+
+    #languages {
+        position: absolute;
+        left: 20px;
+        top: 50%;
+        transform: translateY(-50%);
+        z-index: 101
+    }
+
+    #listlanguages {
+        top: 43px;
+        background-color: #4d2b6c;
+        padding: 10px;
+        list-style: none;
+        margin: 0;
+        border-radius: 10px;
+        left: 0px;
+        transition: 1s;
+        max-width: 60px
+    }
+
+
+    #divabout,
+    #divterms {
+        width: 70%;
+        font-size: 20px
+    }
+
+    .main-slider {
+        width: 700px;
+        height: 500px
+    }
+    .textcomic {
+        max-width: 350px
+    }
+}
+
+@media (min-width:481px) and (max-width:767px) {
+    #hamburger {
+        display: block
+    }
+
+    #hamburger-toggle:checked+label+.mobiletopics {
+        display: block
+    }
+
+    .topics {
+        display: none
+    }
+
+    .divprice {
+        width: 580px;
+        height: 460px;
+    }
+    #imgprice {
+        margin-left: -300px;
+        width: 280px;
+        height: 460px;
+    }
+    #charactertitle {
+        margin-left: -220px;
+    }
+    #imgprice2 {
+        height: 320px;
+    width: 330px;
+    margin-left: -220px;
+    }
+    #pricetextbox2 {
+        top: 5px;
+        margin-left: 340px;
+        width: 210px;
+        height: 445px;
+    }
+    .titlespan {
+        font-size: 18px;
+    }
+    .textprice2 {
+        font-size: 15px;
+    }
+    #pricetextbox {
+        margin-left: 350px;
+    }
+    #markingline1 {
+        top: 171px;
+        margin-left: 100px;
+        width: 450px;
+    }
+    #markingline2 {
+        top: 285px;
+        margin-left: 100px;
+        width: 450px;
+    }
+    #markingline3 {
+        top: 419px;
+        margin-left: 100px;
+        width: 450px;
+    }
+    .textodaheadline {
+        margin-left: 60px;
+    }
+    .textcomic {
+        max-width: 300px;
+    }
+
+    #divabout,
+    #divterms {
+        width: 80%;
+    }
+    .main-slider {
+        width: 580px;
+    }
+    .divcover {
+        height: 320px;
+        width: 210px;
+    }
+    .textcomic h2 {
+        font-size: 24px;
+        margin-top:10px;
+        margin-bottom: -5px;
+    }
+    .textcomic {
+        font-size: 18px;
+    }
+    .comics {
+        width: 580px;
+    }
+
+
+}
+
+@media (max-width:620px) and (min-width:481px) {
+    #namelogo {
+        height: 50vw;
+    }
+    #projects {
+        margin-bottom: -30px;
+    }
+
+.textcomic h2 {
+    font-size: 20px;
+}
+.textcomic {
+    max-width: 240px;
+    font-size: 17px;
+}
+.divcover {
+    height: 280px;
+    width: 180px;
+}
+.divprice {
+    width: 470px;
+}
+#imgprice {
+    margin-left: -188px;
+}
+#charactertitle {
+    margin-left: -190px;
+}
+#imgprice2 {
+    width: 260px;
+    height: 250px;
+    margin-left: -190px;
+}
+#pricetextbox2 {
+    margin-left: 265px;
+    width: 180px;
+}
+.textprice2 {
+    font-size: 13.90px;
+}
+.ministar {
+    font-size: 7px;
+}
+#pricetextbox {
+    margin-left: 250px;
+}
+#markingline1 {
+    top: 173px;
+    width: 340px;
+}
+#markingline2 {
+    top: 288px;
+    width: 340px;
+}
+#markingline3 { 
+    top: 422px;
+    width: 340px;
+}
+.textodaheadline {
+    font-size: 15px;
+    margin-left: 30px;
+}
+.main-slider {
+    width: 470px;
+}
+.comics {
+    width: 470px;
+}
+}
+
+@media (max-width:480px) {
+    #hamburger {
+        display: block
+    }
+
+    #hamburger-toggle:checked+label+.mobiletopics {
+        display: block
+    }
+
+    .topics {
+        display: none
+    }
+
+    body {
+        overflow-x: hidden
+    }
+
+    #namelogo {
+        height: 70vw
+    }
+
+    #listsocial {
+        gap: 10px;
+        font-size: 26px
+    }
+
+    #listsocial li {
+        height: 35px;
+        width: 35px
+    }
+
+    #listsocial li:hover {
+        scale: 1;
+        color: #f7eef2;
+        border: 1px solid #f7eef2
+    }
+
+
+    #about {
+        font-size: 10px
+    }
+
+    .text {
+        margin: 4px;
+        font-size: 17px
+    }
+
+    .text h2 {
+        font-size: 22px
+    }
+
+    #divabout,
+    #divterms {
+        width: 80%
+    }
+    .profile {
+        height: 140px;
+        width: 140px;
+    }
+    .divprice {
+        width: 320px;
+        height: 300px;
+        
+    }
+    #imgprice {
+        height: 270px;
+        width: 190px;
+        margin-left: -115px;
+    }
+    #charactertitle {
+        font-size: 14px;
+        margin-left: -155px;
+    }
+    #imgprice2 {
+        width: 150px;
+        height: 130px;
+        margin-left: -155px;
+        top: 100px;
+    }
+    #pricetextbox2 {
+        margin-left: 155px;
+        width: 150px;
+        height: 280px;
+    }
+    .titlespan{
+        top: 0px;
+        font-size: 14px;
+    }
+    .textprice2 {
+        margin-top: 0px;
+        font-size: 10px;
+        margin: 1px;
+    }
+    .ministar {
+        font-size: 5px;
+    }
+    #pricetextbox {
+        margin-left: 160px;
+        width: 140px;
+        height: 90px;
+    }
+    #markingline1 {
+        top: 117px;
+        width: 220px;
+        margin-left: 90px;
+    }
+    #markingline2 {
+        top: 183px;
+        width: 220px;
+        margin-left: 90px;
+    }
+    #markingline3 {
+        top: 262px;
+        width: 220px;
+        margin-left: 90px;
+    }
+    .textprice {
+        font-size: 11px;
+        margin: 2px;
+    }
+    .textodaheadline {
+        font-size: 10px;
+        margin-left: 10px;
+        padding-top: 1px;
+    }
+    .main-slider {
+        max-width: 320px;
+        height: 300px
+    }
+
+    .comics {
+        max-width: 320px;
+        display: block;
+
+    }
+
+    .divcover {
+        display: flex;
+        height: 280px;
+        width: 200px;
+        margin: 0 auto 10px
+    }
+    .textcomic {
+        font-size: 18px;
+        margin: 8px;
+    }
+    .textcomic h2 {
+        text-align: center;
+        margin-bottom: 0;
+        font-size: 20px
+    }
+    #email {
+        font-size: 18px;
+    }
+}

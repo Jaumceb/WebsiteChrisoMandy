@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChrisoMandy</title>
+    <link rel="icon" type="image/x-icon" href="/img/favicon.png">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mediaqueries.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+</head>
+
+<body translate="no">
+  <canvas></canvas>
+<header>
+  <input type="checkbox" id="hamburger-toggle" hidden>
+  <label for="hamburger-toggle" id="hamburger">
+    <div class="line line1"></div>
+    <div class="line line2"></div>
+    <div class="line line3"></div>
+  </label>
+
+  <nav class="mobiletopics">
+    <ul>
+      <a href="#home"><li class="first" id="mobiletopic1"></li></a>
+      <a href="#about"><li id="mobiletopic2"></li></a>
+      <a href="#prices"><li id="mobiletopic3"></li></a>
+      <a href="#projects"><li id="mobiletopic4"></li></a>
+    </ul>
+  </nav>
+  <nav class="desktoptopics">
+    <ul class="topics">
+      <a href="#home">
+        <li class="litopic" id="li1"><span id="staricon" class="star">✦</span> Home</li>
+      </a>
+      <a href="#about">
+        <li class="litopic" id="li2"><span id="staricon2" class="star">✦</span> About</li>
+      </a>
+      <a href="#prices">
+        <li class="litopic" id="li3"><span id="staricon3" class="star">✦</span> Projects</li>
+      </a>
+      <a href="#projects">
+        <li class="litopic" id="li4"><span id="staricon4" class="star">✦</span> Prices</li>
+      </a>
+    </ul>
+    <div id="languages">
+      <button id="language-toggle"><i id="language-icon" class="fa-solid fa-language"></i></button>
+      <ul id="listlanguages">
+        <li id="eng" class="language-option" data-lang="en">EN</li>
+        <li id="pt" class="language-option" data-lang="pt">PT</li>
+      </ul>
+    </div>
+  </nav>
+
+  <button id="updown"><i class="fa-solid fa-arrow-up"></i></button>
+</header>
+
+<main>
+
+  <section id="home">
+    <img id="namelogo" src="https://i.ibb.co/m8kd0H9/Chrisomandis-logo-01.png" alt="">
+        <ul id="listsocial">
+            <a href="https://x.com/ChrisoMandy" target="_blank" rel="noopener noreferrer">
+                <li><i class="fa-brands fa-x-twitter"></i></li>
+            </a>
+            <a href="https://bsky.app/profile/chrisomandy.bsky.social" target="_blank" rel="noopener noreferrer">
+                <li><i class="fa-brands fa-bluesky"></i></li>
+            </a>
+            <a href="https://www.instagram.com/chrisomandy/" target="_blank" rel="noopener noreferrer">
+              <li><i class="fa-brands fa-instagram"></i></li>
+            </a>
+            <a href="https://www.threads.net/@chrisomandy?hl=pt-br" target="_blank" rel="noopener noreferrer">
+              <li><i class="fa-brands fa-threads"></i></li>
+            </a>
+            <a href="https://cara.app/chrisomandy" target="_blank" rel="noopener noreferrer">
+              <li><i class="fa-solid fa-c"></i></li>
+            </a>
+        </ul>
+            <h2 id="email">chrisomandy.contact@gmail.com</h2>      
+  </section>
+            
+  <section id="about">
+    <div id="divabout">
+      <div class="textabout">
+        <img class="profile" src="https://i.ibb.co/PGs5NTj/Chrisoicon-1.png" alt="">
+          <div class="text">
+            <h2 id="title1"></h2>
+              <p id="text1" class="termtext"></p>
+              <p id="text2" class="termtext2"></p>
+              <h4 id="title2" class="tool"></h4>
+              <p id="text3" class="termtext2"></p>
+              <p id="text4" class="termtext2"></p>
+              <p id="text5"class="termtext2"></p>
+          </div>
+      </div>
+    </div>
+    <div id="divterms">
+      <div class="textterms">
+        <div class="text">
+          <h2 id="title3"></h2>
+          <p id="text6" class="termtext"></p>
+          <p id="text7" class="termtext"></p>
+          <p id="text8" class="termtext"></p>
+          <p id="text9" class="termtext"></p>
+        </div>
+      </div>
+    </div>
+  </section>
+            
+  <section id="prices">
+      <div class="divprice">
+        <img id="imgprice" src="img/Sona 2 - tiny.png" alt="">
+          <div id="pricetextbox"><p class="textprice"></p></div>
+          <div id="markingline1"></div>
+          <div id="markingline2"></div>
+          <div id="markingline3"></div>
+      </div>
+      <div class="divprice">
+        <h2 id="charactertitle"></h2>
+        <img id="imgprice2" src="img/Wiyatt_Jaeger_chart.webp" alt="">
+        <div id="pricetextbox2"> 
+          <span class="titlespan" id="titlespan1"></span>
+          <p class="textprice2"></p> 
+          <span class="titlespan" id="titlespan2"></span>
+      </div>
+      </div>
+  </section>
+                
+  <section id="projects">
+    <div class="slider">
+      <div class="main-slider">
+        <div class="slides"></div>
+        <button class="prev"><i class="fa-solid fa-caret-left"></i></button>
+        <button class="next"><i class="fa-solid fa-caret-right"></i></button>
+        <button class="fullscreen">⛶</button>
+        <div class="indicators"></div>
+      </div>
+    </div>
+  </section>
+    
+  <section id="comicprojects">
+    <div class="comics">
+      <div class="divcover">
+        <div class="cover">
+          <div class="front">
+            <img src="https://i.im.ge/2025/01/14/zBoHo1.Capa-final.webp">
+          </div>
+          <div class="back">
+            <img src="https://i.im.ge/2025/01/14/zBokWP.Capacortada.webp">
+            <img src="https://i.im.ge/2025/01/14/zBokWP.Capacortada.webp">
+          </div>
+        </div>
+      </div>
+      <div class="textcomic">
+        <h2 id="comictitle1"></h2>
+        <p id="comictext1"></p>
+      </div>
+    </div>
+      
+    <div class="comics">
+      <div class="divcover">
+        <div class="cover">
+          <div class="front">
+            <img src="https://i.im.ge/2025/01/14/zBokWP.Capacortada.webp">
+            <div id="click"><i class="fa-solid fa-arrow-pointer"></i></div>
+          </div>
+          <div class="back">
+            <img id="imageback1" src="https://i.im.ge/2025/01/14/zBofjp.Pagina-1.webp">
+            <img id="imageback2" src="https://i.im.ge/2025/01/14/zBoVOq.Pagina-2.webp">
+          </div>
+        </div>
+      </div>
+      <div class="textcomic">
+        <h2 id="comictitle2"></h2>
+        <p id="comictext2"></p>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+</footer>
+
+<script src="script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+</body>
+</html>
